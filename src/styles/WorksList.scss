@@ -1,0 +1,13 @@
+.works__list{  
+    margin:100px 200px 100px;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    max-width:1100px;
+  }
+
+  .works__item{
+    margin:10px;
+  }

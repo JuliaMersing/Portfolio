@@ -1,0 +1,43 @@
+.Main__section_about-me {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #5effc3;
+  background: -moz-linear-gradient(top, #5effc3 1%, #e0e0e0 100%);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, #5effc3),
+    color-stop(100%, #e0e0e0)
+  );
+  background: -webkit-linear-gradient(top, #5effc3 1%, #e0e0e0 100%);
+  background: -o-linear-gradient(top, #5effc3 1%, #e0e0e0 100%);
+  background: -ms-linear-gradient(top, #5effc3 1%, #e0e0e0 100%);
+  background: linear-gradient(to bottom, #5effc3 1%, #e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5EFFC3', endColorstr='#e0e0e0', GradientType=0 );
+  .arrow-icon {
+    font-size: 50px;
+    display: block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+
+.about-me__container {
+  width: 600px;
+}
+
+.about-me__title {
+  margin: 0;
+  font-size: 40px;
+  display: none;
+}
+.about-me__text {
+  margin: 0;
+  padding: 40px;
+  font-size: 40px;
+  color: white;
+}

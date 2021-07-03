@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/AboutMe.scss";
-import Arrow from "../images/ico-arrow.svg";
 
 const AboutMe = (props) => {
   return (

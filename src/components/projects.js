@@ -25,7 +25,7 @@ const projects = [
   {
     name: "TVShows",
     description: "Gestor de series favoritas #javascript #localstorage #api",
-    url: "https://github.com/JuliaMersing/TV-Shows",
+    url: "https://github.com/JuliaMersing/TV-Shows-Finder",
     emoji: "📺",
     id: 4,
   },

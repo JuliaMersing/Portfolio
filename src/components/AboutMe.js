@@ -6,13 +6,11 @@ const AboutMe = (props) => {
     <section id="about-me" className="Main__section_about-me">
       <div className="about-me__container">
         <p className="about-me__text">
-          Saber gestionar cuentas y proyectos es importante, pero el corazón de
-          una empresa radica en su producto, y eso es su construcción donde
-          quiero seguir creciendo y aprendiendo.
+          My name is Julia. Curious and always willing to learn, I am starting
+          this new professional chapter of my proffesional life and I am very
+          keen to develop myself further.
         </p>
-        <p className="about-me__text">
-          ¿Quieres ver alguno de mis últimos proyectos?
-        </p>
+        <p className="about-me__text">Here you can see some of my projects </p>
       </div>
     </section>
   );

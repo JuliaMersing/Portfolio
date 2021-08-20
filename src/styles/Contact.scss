@@ -1,6 +1,6 @@
 .App__contact {
   position: fixed;
-  top: 50px;
+  top: 10px;
   right: 50px;
 }
 
@@ -8,14 +8,20 @@
   display: flex;
   list-style: none;
   padding: 0;
-  font-size: 25px;
+  font-size: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .contact__icons-list {
+    font-size: 25px;
+  }
 }
 
 .contact__item {
   border: 1.5px solid #141426;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,5 +30,12 @@
     color: red;
     border: 0;
     border-radius: 50%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .contact__item {
+    width: 40px;
+    height: 40px;
   }
 }
